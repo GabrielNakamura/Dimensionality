@@ -1,11 +1,11 @@
 # Dimensionality repository
 This repository contains all the [functions](functions), [data](data) and scripts needed to reproduce the analysis presented in [Nakamura's et al paper](https://www.biorxiv.org/content/10.1101/508002v3). To run the entire code the user can download the zip file.
 
-#[Data](data)
+# [Data](data)
 
 This folder contains data of South America small mammals (cricetids and marsupials) used to illustrate the application of dimensionality framework. The following archives contains:
 
-#[Functions](functions)
+# [Functions](functions)
 
 This folder contains all R functions needed to run the analysis of dimensionality:
 
