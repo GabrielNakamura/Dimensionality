@@ -1,9 +1,9 @@
 # Dimensionality repository
-===========================
+
 
 This repository contains all the [functions](functions), [data](data) and scripts needed to reproduce the analysis presented in [Nakamura's et al paper](https://www.biorxiv.org/content/10.1101/508002v3).
 
-![](figures/Captura de Tela 2019-10-10 às 8.36.35 AM.png)
+![](figures/MS_biorXiv.png)
 
 # [Data](data)
 --------------
