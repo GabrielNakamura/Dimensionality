@@ -5,7 +5,7 @@ This repository contains all the [functions](functions), [data](data) and script
 
 ![](figures/MS_biorXiv.png)
 
-# [Data](data)
+## [Data](data)
 --------------
 
 This folder contains data of South America small mammals (cricetids and marsupials) used to illustrate the application of dimensionality framework. The following archives contains:
@@ -16,7 +16,7 @@ This folder contains data of South America small mammals (cricetids and marsupia
 
 - tree.txt: phylogenetic hypothesis in newick format of cricetids and marsupials species presented in the the incidence matrix.
 
-# [Functions](functions)
+## [Functions](functions)
 -----------------------
 
 This folder contains all R functions needed to run the analysis of dimensionality:
@@ -42,9 +42,9 @@ Further, the .R files presented here contains the scripts used to run all simula
 The user can download the all documents directly to R using the following code:
 
 ``` r
-install.packages("dabestr")
 
-# To install the latest development version on Github,
+# To download all archives contained in this repository,
 # use the line below.
-devtools::install_github("ACCLAB/dabestr")
+download.file(url = "https://github.com/GabrielNakamura/Dimensionality/archive/master.zip"
+                                   , destfile = "Dimensionality-master.zip")
 ```
