@@ -1,7 +1,12 @@
 # Dimensionality repository
-This repository contains all the [functions](functions), [data](data) and scripts needed to reproduce the analysis presented in [Nakamura's et al paper](https://www.biorxiv.org/content/10.1101/508002v3). To run the entire code the user can download the zip file.
+===========================
+
+This repository contains all the [functions](functions), [data](data) and scripts needed to reproduce the analysis presented in [Nakamura's et al paper](https://www.biorxiv.org/content/10.1101/508002v3).
+
+![](figures/Captura de Tela 2019-10-10 às 8.36.35 AM.png)
 
 # [Data](data)
+--------------
 
 This folder contains data of South America small mammals (cricetids and marsupials) used to illustrate the application of dimensionality framework. The following archives contains:
 
@@ -12,6 +17,7 @@ This folder contains data of South America small mammals (cricetids and marsupia
 - tree.txt: phylogenetic hypothesis in newick format of cricetids and marsupials species presented in the the incidence matrix.
 
 # [Functions](functions)
+-----------------------
 
 This folder contains all R functions needed to run the analysis of dimensionality:
 
@@ -32,3 +38,13 @@ Further, the .R files presented here contains the scripts used to run all simula
 - dimensionality_All_Scenarios_deconstandMAX.R: R script containing the simulation analysis of dimensionality framework;
 
 - analysis.R: R script containing dimensionality analysis with cricetid and marsupial communities in South America.
+
+The user can download the all documents directly to R using the following code:
+
+``` r
+install.packages("dabestr")
+
+# To install the latest development version on Github,
+# use the line below.
+devtools::install_github("ACCLAB/dabestr")
+```
